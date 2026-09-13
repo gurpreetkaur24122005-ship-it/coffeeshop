@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brew & Bean Coffee House</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-mug-hot"></i>
+                Brew <span>&</span> Bean
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#menu" class="nav-order-btn">Order Now</a>
+
+                <button class="cart-btn" id="cartBtn" aria-label="Open shopping cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cartCount">0</span>
+                </button>
+
+                <button class="menu-btn" id="menuBtn" aria-label="Open navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content container">
+
+                <div class="hero-text">
+                    <p class="hero-subtitle">WELCOME TO BREW & BEAN</p>
+
+                    <h1>
+                        Brewed with Passion,
+                        <span>Served with Soul.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Discover freshly roasted coffee, handcrafted with care
+                        and served in a cozy atmosphere made for beautiful moments.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn primary-btn">
+                            Explore Menu
+                        </a>
+
+                        <button class="btn secondary-btn" id="heroOrderBtn">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section class="section about-section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=80"
+                        alt="Inside of a cozy coffee shop"
+                    >
+
+                    <div class="experience-box">
+                        <strong>10+</strong>
+                        <span>Years of Brewing</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <p class="section-label">OUR STORY</p>
+
+                    <h2 class="section-title">
+                        Coffee made with passion.
+                    </h2>
+
+                    <p>
+                        Brew & Bean Coffee House began with one simple idea:
+                        great coffee should bring people together.
+                    </p>
+
+                    <p>
+                        We carefully select quality beans, roast them to
+                        perfection, and craft every drink with love. Whether
+                        you're meeting friends, working remotely, or enjoying
+                        a quiet morning, our café is your place to slow down.
+                    </p>
+
+                    <div class="about-features">
+
+                        <div class="feature-item">
+                            <i class="fa-solid fa-seedling"></i>
+                            <div>
+                                <h3>Freshly Roasted</h3>
+                                <p>Premium beans roasted for rich flavor.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <i class="fa-solid fa-mug-hot"></i>
+                            <div>
+                                <h3>Handcrafted Coffee</h3>
+                                <p>Every cup prepared by expert baristas.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <i class="fa-solid fa-house"></i>
+                            <div>
+                                <h3>Cozy Atmosphere</h3>
+                                <p>A comfortable place to relax and connect.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COFFEE EXPERIENCE ================= -->
+        <section class="experience-section section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-label">THE BREW & BEAN RITUAL</p>
+                    <h2 class="section-title">From bean to beautiful moment.</h2>
+                    <p>Thoughtful sourcing and patient craft in every cup.</p>
+                </div>
+
+                <div class="process-grid">
+                    <article class="process-step">
+                        <span class="process-number">01</span>
+                        <i class="fa-solid fa-seedling"></i>
+                        <h3>Selected Beans</h3>
+                        <p>Small-lot beans chosen for character and balance.</p>
+                    </article>
+                    <article class="process-step">
+                        <span class="process-number">02</span>
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                        <h3>Freshly Roasted</h3>
+                        <p>Roasted in small batches to protect every note.</p>
+                    </article>
+                    <article class="process-step">
+                        <span class="process-number">03</span>
+                        <i class="fa-solid fa-filter"></i>
+                        <h3>Expertly Brewed</h3>
+                        <p>Dialled in by baristas who care about the details.</p>
+                    </article>
+                    <article class="process-step">
+                        <span class="process-number">04</span>
+                        <i class="fa-solid fa-mug-hot"></i>
+                        <h3>Perfect Cup</h3>
+                        <p>Handed over warm, fragrant and ready for your day.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= MENU ================= -->
+        <section class="section menu-section" id="menu">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">OUR MENU</p>
+                    <h2 class="section-title">Popular Coffee</h2>
+                    <p>
+                        Explore some of our favorite handcrafted drinks.
+                    </p>
+                </div>
+
+                <!-- Search + Filter -->
+                <div class="menu-controls">
+
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input
+                            type="text"
+                            id="searchInput"
+                            placeholder="Search coffee..."
+                        >
+                    </div>
+
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-category="all">
+                            All
+                        </button>
+
+                        <button class="filter-btn" data-category="hot">
+                            Coffee
+                        </button>
+
+                        <button class="filter-btn" data-category="cold">
+                            Cold Coffee
+                        </button>
+
+                        <button class="filter-btn" data-category="espresso">
+                            Espresso
+                        </button>
+
+                        <button class="filter-btn" data-category="tea">
+                            Tea
+                        </button>
+
+                        <button class="filter-btn" data-category="dessert">
+                            Desserts
+                        </button>
+
+                        <button class="filter-btn" data-category="snack">
+                            Snacks
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="menu-grid" id="menuGrid">
+
+                    <!-- Product 1 -->
+                    <article
+                        class="coffee-card"
+                        data-name="Cappuccino"
+                        data-category="hot"
+                    >
+                        <div class="coffee-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?auto=format&fit=crop&w=700&q=80"
+                                alt="Cappuccino"
+                            >
+
+                            <span class="category-tag">Hot</span>
+                        </div>
+
+                        <div class="coffee-info">
+                            <h3>Cappuccino</h3>
+
+                            <p>
+                                Rich espresso topped with silky milk foam.
+                            </p>
+
+                            <div class="coffee-bottom">
+                                <span class="price">₹180</span>
+
+                                <button
+                                    class="add-cart-btn"
+                                    data-name="Cappuccino"
+                                    data-price="180"
+                                >
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!-- Product 2 -->
+                    <article
+                        class="coffee-card"
+                        data-name="Espresso"
+                        data-category="hot"
+                    >
+                        <div class="coffee-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=700&q=80"
+                                alt="Espresso"
+                            >
+
+                            <span class="category-tag">Hot</span>
+                        </div>
+
+                        <div class="coffee-info">
+                            <h3>Espresso</h3>
+
+                            <p>
+                                Bold, rich and intense with a smooth finish.
+                            </p>
+
+                            <div class="coffee-bottom">
+                                <span class="price">₹140</span>
+
+                                <button
+                                    class="add-cart-btn"
+                                    data-name="Espresso"
+                                    data-price="140"
+                                >
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!-- Product 3 -->
+                    <article
+                        class="coffee-card"
+                        data-name="Latte"
+                        data-category="hot"
+                    >
+                        <div class="coffee-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=700&q=80"
+                                alt="Latte"
+                            >
+
+                            <span class="category-tag">Hot</span>
+                        </div>
+
+                        <div class="coffee-info">
+                            <h3>Latte</h3>
+
+                            <p>
+                                Smooth espresso blended with steamed milk.
+                            </p>
+
+                            <div class="coffee-bottom">
+                                <span class="price">₹190</span>
+
+                                <button
+                                    class="add-cart-btn"
+                                    data-name="Latte"
+                                    data-price="190"
+                                >
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!-- Product 4 -->
+                    <article
+                        class="coffee-card"
+                        data-name="Mocha"
+                        data-category="special"
+                    >
+                        <div class="coffee-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1578314675249-a69141428ca8?auto=format&fit=crop&w=700&q=80"
+                                alt="Mocha"
+                            >
+
+                            <span class="category-tag">Special</span>
+                        </div>
+
+                        <div class="coffee-info">
+                            <h3>Mocha</h3>
+
+                            <p>
+                                Espresso, chocolate and steamed creamy milk.
+                            </p>
+
+                            <div class="coffee-bottom">
+                                <span class="price">₹220</span>
+
+                                <button
+                                    class="add-cart-btn"
+                                    data-name="Mocha"
+                                    data-price="220"
+                                >
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!-- Product 5 -->
+                    <article
+                        class="coffee-card"
+                        data-name="Americano"
+                        data-category="hot"
+                    >
+                        <div class="coffee-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=700&q=80"
+                                alt="Americano"
+                            >
+
+                            <span class="category-tag">Hot</span>
+                        </div>
+
+                        <div class="coffee-info">
+                            <h3>Americano</h3>
+
+                            <p>
+                                Espresso combined with hot water for a clean taste.
+                            </p>
+
+                            <div class="coffee-bottom">
+                                <span class="price">₹160</span>
+
+                                <button
+                                    class="add-cart-btn"
+                                    data-name="Americano"
+                                    data-price="160"
+                                >
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!-- Product 6 -->
+                    <article
+                        class="coffee-card"
+                        data-name="Cold Coffee"
+                        data-category="cold"
+                    >
+                        <div class="coffee-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=700&q=80"
+                                alt="Cold coffee"
+                            >
+
+                            <span class="category-tag">Cold</span>
+                        </div>
+
+                        <div class="coffee-info">
+                            <h3>Cold Coffee</h3>
+
+                            <p>
+                                Chilled coffee blended with creamy milk and ice.
+                            </p>
+
+                            <div class="coffee-bottom">
+                                <span class="price">₹210</span>
+
+                                <button
+                                    class="add-cart-btn"
+                                    data-name="Cold Coffee"
+                                    data-price="210"
+                                >
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!-- Product 7 -->
+                    <article
+                        class="coffee-card"
+                        data-name="Caramel Macchiato"
+                        data-category="special"
+                    >
+                        <div class="coffee-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=700&q=80"
+                                alt="Caramel Macchiato"
+                            >
+
+                            <span class="category-tag">Special</span>
+                        </div>
+
+                        <div class="coffee-info">
+                            <h3>Caramel Macchiato</h3>
+
+                            <p>
+                                Espresso, vanilla, milk and caramel drizzle.
+                            </p>
+
+                            <div class="coffee-bottom">
+                                <span class="price">₹240</span>
+
+                                <button
+                                    class="add-cart-btn"
+                                    data-name="Caramel Macchiato"
+                                    data-price="240"
+                                >
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!-- Product 8 -->
+                    <article
+                        class="coffee-card"
+                        data-name="Chocolate Frappe"
+                        data-category="cold"
+                    >
+                        <div class="coffee-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=700&q=80"
+                                alt="Chocolate frappe"
+                            >
+
+                            <span class="category-tag">Cold</span>
+                        </div>
+
+                        <div class="coffee-info">
+                            <h3>Chocolate Frappe</h3>
+
+                            <p>
+                                Ice-blended chocolate coffee with whipped cream.
+                            </p>
+
+                            <div class="coffee-bottom">
+                                <span class="price">₹250</span>
+
+                                <button
+                                    class="add-cart-btn"
+                                    data-name="Chocolate Frappe"
+                                    data-price="250"
+                                >
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="no-results" id="noResults">
+                    No coffee found.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= OFFER ================= -->
+        <section class="offer-section">
+
+            <div class="container">
+
+                <div class="offer-box">
+
+                    <div class="offer-content">
+                        <p class="section-label">SPECIAL OFFER</p>
+
+                        <h2>Coffee &amp; Dessert Combo</h2>
+
+                        <p>
+                            Your favorite handcrafted coffee, paired with a fresh-baked treat.
+                        </p>
+
+                        <div class="offer-pricing">
+                            <span>₹420</span>
+                            <strong>₹320</strong>
+                            <small>save 24%</small>
+                        </div>
+
+                        <div class="countdown" id="countdown">
+                            <div>
+                                <strong id="days">00</strong>
+                                <span>Days</span>
+                            </div>
+
+                            <div>
+                                <strong id="hours">00</strong>
+                                <span>Hours</span>
+                            </div>
+
+                            <div>
+                                <strong id="minutes">00</strong>
+                                <span>Minutes</span>
+                            </div>
+
+                            <div>
+                                <strong id="seconds">00</strong>
+                                <span>Seconds</span>
+                            </div>
+                        </div>
+
+                        <button class="btn primary-btn" id="offerOrderBtn">
+                            Order Now
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= GALLERY ================= -->
+        <section class="section gallery-section" id="gallery">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">OUR GALLERY</p>
+
+                    <h2 class="section-title">
+                        Moments at Brew & Bean
+                    </h2>
+
+                    <p>
+                        A glimpse into our coffee, people and cozy café.
+                    </p>
+                </div>
+
+                <div class="gallery-grid" aria-label="Coffee shop gallery">
+
+                    <button class="gallery-item large" type="button" aria-label="View Café Interior">
+                        <img
+                            src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=80"
+                            alt="Coffee shop interior"
+                        >
+                        <div class="gallery-overlay">
+                            <span>Café Interior</span>
+                        </div>
+                    </button>
+
+                    <button class="gallery-item" type="button" aria-label="View Morning Coffee">
+                        <img
+                            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=80"
+                            alt="Coffee cup"
+                        >
+                        <div class="gallery-overlay">
+                            <span>Morning Coffee</span>
+                        </div>
+                    </button>
+
+                    <button class="gallery-item" type="button" aria-label="View Fresh Beans">
+                        <img
+                            src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=700&q=80"
+                            alt="Coffee beans"
+                        >
+                        <div class="gallery-overlay">
+                            <span>Fresh Beans</span>
+                        </div>
+                    </button>
+
+                    <button class="gallery-item" type="button" aria-label="View Our Barista">
+                        <img
+                            src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&q=80"
+                            alt="Barista coffee"
+                        >
+                        <div class="gallery-overlay">
+                            <span>Our Barista</span>
+                        </div>
+                    </button>
+
+                    <button class="gallery-item" type="button" aria-label="View Sweet Treats">
+                        <img
+                            src="https://images.unsplash.com/photo-1511081692775-05d0f180a065?auto=format&fit=crop&w=700&q=80"
+                            alt="Coffee and dessert"
+                        >
+                        <div class="gallery-overlay">
+                            <span>Sweet Treats</span>
+                        </div>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY CHOOSE US ================= -->
+        <section class="section why-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">WHY CHOOSE US</p>
+
+                    <h2 class="section-title">
+                        More Than Just Coffee
+                    </h2>
+                </div>
+
+                <div class="why-grid">
+
+                    <article class="why-card">
+                        <i class="fa-solid fa-mug-hot"></i>
+                        <h3>Premium Coffee</h3>
+                        <p>
+                            Carefully selected beans with rich and memorable flavors.
+                        </p>
+                    </article>
+
+                    <article class="why-card">
+                        <i class="fa-solid fa-leaf"></i>
+                        <h3>Fresh Ingredients</h3>
+                        <p>
+                            Quality milk, syrups and ingredients in every cup.
+                        </p>
+                    </article>
+
+                    <article class="why-card">
+                        <i class="fa-solid fa-user-chef"></i>
+                        <h3>Expert Baristas</h3>
+                        <p>
+                            Skilled baristas who care about every detail.
+                        </p>
+                    </article>
+
+                    <article class="why-card">
+                        <i class="fa-solid fa-house"></i>
+                        <h3>Relaxing Environment</h3>
+                        <p>
+                            A peaceful café atmosphere for work and conversation.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= REVIEWS ================= -->
+        <section class="section reviews-section" id="reviews">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">CUSTOMER REVIEWS</p>
+
+                    <h2 class="section-title">
+                        What Our Guests Say
+                    </h2>
+                </div>
+
+                <div class="reviews-carousel">
+                    <div class="reviews-grid">
+
+                    <article class="review-card">
+
+                        <div class="review-person">
+                            <img
+                                src="https://i.pravatar.cc/100?img=47"
+                                alt="Customer Priya"
+                            >
+
+                            <div>
+                                <h3>Priya Sharma</h3>
+                                <div class="stars">
+                                    ★★★★★
+                                </div>
+                            </div>
+                        </div>
+
+                        <p>
+                            "The cappuccino is absolutely amazing. The café has
+                            such a warm and peaceful atmosphere!"
+                        </p>
+
+                    </article>
+
+
+                    <article class="review-card">
+
+                        <div class="review-person">
+                            <img
+                                src="https://i.pravatar.cc/100?img=12"
+                                alt="Customer Arjun"
+                            >
+
+                            <div>
+                                <h3>Arjun Singh</h3>
+                                <div class="stars">
+                                    ★★★★★
+                                </div>
+                            </div>
+                        </div>
+
+                        <p>
+                            "Great coffee, friendly staff and a beautiful place
+                            to work. Highly recommended."
+                        </p>
+
+                    </article>
+
+
+                    <article class="review-card">
+
+                        <div class="review-person">
+                            <img
+                                src="https://i.pravatar.cc/100?img=32"
+                                alt="Customer Neha"
+                            >
+
+                            <div>
+                                <h3>Neha Kapoor</h3>
+                                <div class="stars">
+                                    ★★★★★
+                                </div>
+                            </div>
+                        </div>
+
+                        <p>
+                            "The caramel macchiato is my favorite. Everything
+                            tastes fresh and delicious."
+                        </p>
+
+                    </article>
+
+                    </div>
+                    <div class="review-controls">
+                        <button type="button" id="previousReview" aria-label="Previous review"><i class="fa-solid fa-arrow-left"></i></button>
+                        <span id="reviewPosition">01 / 03</span>
+                        <button type="button" id="nextReview" aria-label="Next review"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESERVATIONS ================= -->
+        <section class="section reservation-section" id="reserve">
+            <div class="container reservation-grid">
+                <div class="reservation-copy">
+                    <p class="section-label">MAKE IT A MOMENT</p>
+                    <h2 class="section-title">Reserve your favorite corner.</h2>
+                    <p>Planning a catch-up, quiet work session or weekend brunch? We will have a table ready for you.</p>
+                    <div class="reservation-note">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <span>Reservations are held for 15 minutes after your booking time.</span>
+                    </div>
+                </div>
+
+                <div class="reservation-card">
+                    <form id="reservationForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reservationName">Name</label>
+                                <input type="text" id="reservationName" required placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="reservationPhone">Phone</label>
+                                <input type="tel" id="reservationPhone" required pattern="[0-9+() -]{10,}" placeholder="Your phone number">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reservationDate">Date</label>
+                                <input type="date" id="reservationDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reservationTime">Time</label>
+                                <select id="reservationTime" required>
+                                    <option value="">Choose a time</option>
+                                    <option>10:00 AM</option>
+                                    <option>12:00 PM</option>
+                                    <option>2:00 PM</option>
+                                    <option>4:00 PM</option>
+                                    <option>6:00 PM</option>
+                                    <option>8:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="reservationGuests">Guests</label>
+                            <select id="reservationGuests" required>
+                                <option value="">How many guests?</option>
+                                <option>1 guest</option>
+                                <option>2 guests</option>
+                                <option>3 guests</option>
+                                <option>4 guests</option>
+                                <option>5+ guests</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn primary-btn">Reserve Table</button>
+                        <p class="form-message" id="reservationMessage"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section class="section contact-section" id="contact">
+
+            <div class="container contact-grid">
+
+                <div class="contact-info">
+
+                    <p class="section-label">GET IN TOUCH</p>
+
+                    <h2 class="section-title">
+                        Visit Our Coffee House
+                    </h2>
+
+                    <p>
+                        Come by for a fresh cup of coffee and stay for the
+                        atmosphere.
+                    </p>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Coffee Street, Chandigarh, India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <div>
+                            <h3>Email</h3>
+                            <p>hello@brewandbean.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-clock"></i>
+
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Mon - Sun: 8:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-form-box">
+
+                    <form id="contactForm">
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="name">Name</label>
+
+                                <input
+                                    type="text"
+                                    id="name"
+                                    placeholder="Your name"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="Your email"
+                                    required
+                                >
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+
+                            <textarea
+                                id="message"
+                                rows="6"
+                                placeholder="Write your message..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn primary-btn">
+                            Send Message
+                        </button>
+
+                        <p class="form-message" id="formMessage"></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="container location-panel">
+                <div class="location-map" aria-label="Map showing Brew and Bean Coffee House">
+                    <div class="map-grid-lines"></div>
+                    <div class="map-road road-one"></div>
+                    <div class="map-road road-two"></div>
+                    <div class="map-pin"><i class="fa-solid fa-mug-hot"></i></div>
+                    <span class="map-label label-park">Rose Garden</span>
+                    <span class="map-label label-street">Coffee Street</span>
+                    <span class="map-label label-cafe">Brew &amp; Bean</span>
+                </div>
+
+                <div class="location-details">
+                    <div>
+                        <p class="section-label">FIND US</p>
+                        <h3>Easy to reach, hard to leave.</h3>
+                        <p>123 Coffee Street, Chandigarh, India</p>
+                        <span class="open-status"><i class="fa-solid fa-circle"></i> Open today · 8:00 AM - 10:00 PM</span>
+                    </div>
+                    <a class="btn primary-btn" href="https://www.google.com/maps/search/?api=1&amp;query=123+Coffee+Street+Chandigarh+India" target="_blank" rel="noopener">
+                        <i class="fa-solid fa-diamond-turn-right"></i>
+                        Get Directions
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-column">
+
+                <a href="#home" class="footer-logo">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    Brew <span>&</span> Bean
+                </a>
+
+                <p>
+                    Fresh coffee, handcrafted moments and a cozy place
+                    to call your own.
+                </p>
+
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" aria-label="Twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#" aria-label="YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Opening Hours</h3>
+
+                <p>Monday - Friday</p>
+                <strong>8:00 AM - 10:00 PM</strong>
+
+                <p>Saturday - Sunday</p>
+                <strong>9:00 AM - 11:00 PM</strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>
+                © 2026 Brew & Bean Coffee House. All Rights Reserved.
+            </p>
+        </div>
+
+    </footer>
+
+
+    <!-- ================= CART SIDEBAR ================= -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <aside class="cart-sidebar" id="cartSidebar">
+
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+
+            <button id="closeCart" aria-label="Close cart">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">
+                Your cart is empty.
+            </p>
+        </div>
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+                <span>Total</span>
+                <strong id="cartTotal">₹0</strong>
+            </div>
+
+            <button class="checkout-btn" id="checkoutBtn">
+                Checkout
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- ================= CUSTOMIZE DRINK MODAL ================= -->
+    <div class="customize-overlay" id="customizeOverlay"></div>
+
+    <section class="customize-modal" id="customizeModal" role="dialog" aria-modal="true" aria-labelledby="customizeTitle">
+
+        <div class="customize-header">
+            <div>
+                <p class="section-label">MAKE IT YOURS</p>
+                <h2 id="customizeTitle">Customize your drink</h2>
+            </div>
+
+            <button id="closeCustomize" aria-label="Close customization">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div class="customize-body">
+            <p class="customize-drink-name" id="customizeDrinkName"></p>
+
+            <fieldset class="customize-group">
+                <legend>Choose a size</legend>
+                <div class="customize-options">
+                    <label><input type="radio" name="size" value="Small" data-extra="0" checked> Small <span>+₹0</span></label>
+                    <label><input type="radio" name="size" value="Medium" data-extra="30"> Medium <span>+₹30</span></label>
+                    <label><input type="radio" name="size" value="Large" data-extra="60"> Large <span>+₹60</span></label>
+                </div>
+            </fieldset>
+
+            <fieldset class="customize-group">
+                <legend>Choose your milk</legend>
+                <div class="customize-options">
+                    <label><input type="radio" name="milk" value="Regular" data-extra="0" checked> Regular <span>+₹0</span></label>
+                    <label><input type="radio" name="milk" value="Oat" data-extra="30"> Oat <span>+₹30</span></label>
+                    <label><input type="radio" name="milk" value="Almond" data-extra="30"> Almond <span>+₹30</span></label>
+                </div>
+            </fieldset>
+
+            <label class="extra-shot-option">
+                <span>
+                    <strong>Extra espresso shot</strong>
+                    <small>Make it stronger</small>
+                </span>
+                <input type="checkbox" id="extraShot" data-extra="50">
+                <b>+₹50</b>
+            </label>
+
+            <div class="customize-footer">
+                <strong id="customizePrice">₹0</strong>
+                <button class="btn primary-btn" id="addCustomizedBtn">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ================= CHECKOUT MODAL ================= -->
+    <div class="checkout-overlay" id="checkoutOverlay"></div>
+
+    <section class="checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+
+        <div class="customize-header">
+            <div>
+                <p class="section-label">ALMOST THERE</p>
+                <h2 id="checkoutTitle">Complete your order</h2>
+            </div>
+
+            <button id="closeCheckout" aria-label="Close checkout">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <form class="checkout-body" id="checkoutForm">
+            <div class="order-summary" id="orderSummary"></div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="checkoutName">Full name</label>
+                    <input type="text" id="checkoutName" required placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="checkoutPhone">Phone number</label>
+                    <input type="tel" id="checkoutPhone" required pattern="[0-9+() -]{10,}" placeholder="Your phone number">
+                </div>
+            </div>
+
+            <fieldset class="delivery-options">
+                <legend>How would you like your order?</legend>
+                <label><input type="radio" name="fulfillment" value="pickup" checked> Pickup</label>
+                <label><input type="radio" name="fulfillment" value="delivery"> Delivery <span>+₹40</span></label>
+            </fieldset>
+
+            <div class="form-group address-group" id="addressGroup">
+                <label for="checkoutAddress">Delivery address</label>
+                <textarea id="checkoutAddress" rows="3" placeholder="Enter your delivery address"></textarea>
+            </div>
+
+            <div class="checkout-total">
+                <span>Total payable</span>
+                <strong id="checkoutTotal">₹0</strong>
+            </div>
+
+            <button type="submit" class="btn primary-btn checkout-submit">
+                <i class="fa-solid fa-lock"></i>
+                Place Order
+            </button>
+        </form>
+
+        <div class="order-confirmation" id="orderConfirmation" hidden>
+            <i class="fa-solid fa-circle-check"></i>
+            <h2>Order confirmed!</h2>
+            <p id="confirmationMessage"></p>
+            <button class="btn primary-btn" id="continueShopping">Continue Shopping</button>
+        </div>
+
+    </section>
+
+
+    <!-- ================= GALLERY LIGHTBOX ================= -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image viewer">
+        <button class="lightbox-close" id="closeLightbox" aria-label="Close image viewer">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <img id="lightboxImage" src="" alt="">
+        <p id="lightboxCaption"></p>
+    </div>
+
+
+    <!-- Notification -->
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastMessage">Added to cart!</span>
+    </div>
+
+
+    <!-- Back to top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
