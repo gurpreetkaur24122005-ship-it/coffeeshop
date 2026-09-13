@@ -448,3 +448,5 @@ The following are demonstrations rather than real server features:
 - Images are loaded from external URLs
 
 That is completely acceptable for a frontend portfolio project. In an interview, explain honestly what is implemented in the browser and what would require a backend.
+#   c o f f e e s h o p  
+ 
